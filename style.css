@@ -249,3 +249,40 @@ body {
     font-weight: 300;
     z-index: 9;
 }   
+
+.redes-sociais {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.redes-sociais a {
+    transition: all 0.2s ease-in;
+    font-size: 1.5rem;
+    color: var(--gray);
+    transform: translateY(0);
+}
+
+.redes-sociais a:hover {
+    transform: translateY(-5px);
+}
+
+.redes-sociais a:hover .fa-github {
+    color: #454545;
+}
+
+.redes-sociais a:hover .fa-linkedin {
+    color: #0e76a8;
+}
+
+.redes-sociais a:hover .fa-tiktok {
+    color: #353535;
+}
+
+.redes-sociais a:hover .fa-instagram {
+    color: #e4405f;
+}
